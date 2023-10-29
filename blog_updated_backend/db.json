@@ -1,0 +1,34 @@
+{
+	"notes": [
+  		{
+    			content: 'HTML is easy',
+    			important: false,
+    			_id: 221212,
+    			user: 123456,
+  		},
+  		{
+    			content: 'The most important operations of HTTP protocol are GET and POST',
+    			important: true,
+    			_id: 221255,
+    			user: 123456,
+  		},
+  		{
+    			content: 'A proper dinosaur codes with Java',
+    			important: false,
+    			_id: 221244,
+    			user: 141414,
+  		}
+	],
+	"users": [
+		{
+			username: 'mluukkai',
+			_id: 123456,
+			notes: [221212, 221255],
+		},
+		{
+			username: 'hellas',
+			_id: 141414,
+			notes: [221244],
+		},
+	]
+}
